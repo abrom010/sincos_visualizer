@@ -1,0 +1,26 @@
+﻿  main.cpp
+C:\Users\user\Desktop\sincos_visualizer\sincos_visualizer\main.cpp(19,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\sincos_visualizer\sincos_visualizer\main.cpp(37,36): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\sincos_visualizer\sincos_visualizer\main.cpp(184,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(186,54): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+C:\Users\user\Desktop\sincos_visualizer\sincos_visualizer\main.cpp(29): message : see reference to function template instantiation 'std::pair<float,float>::pair<float,double,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=float,
+              _Other2=double
+          ]
+C:\Users\user\Desktop\sincos_visualizer\sincos_visualizer\main.cpp(29): message : see reference to function template instantiation 'std::pair<float,float>::pair<float,double,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=float,
+              _Other2=double
+          ]
+  sincos_visualizer.vcxproj -> C:\Users\user\Desktop\sincos_visualizer\x64\Debug\sincos_visualizer.exe
